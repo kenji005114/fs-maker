@@ -8,18 +8,7 @@
   },
   "private": true,
   "license": "MIT",
-  "author": {
-    "name": "aiktb",
-    "email": "ai.ourship@gmail.com"
-  },
   "homepage": "https://furiganamaker.app",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aiktb/furiganamaker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aiktb/furiganamaker/issues"
-  },
   "scripts": {
     "format": "biome format --write .",
     "lint": "biome check .",
