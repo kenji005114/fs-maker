@@ -15,9 +15,8 @@ const toTop = () => {
 
 export default function Footer() {
   const navItems = [
-    { text: "About the author", to: "https://github.com/aiktb" },
-    { text: "Contact us", to: "mailto:ai.ourship@gmail.com" },
-    { text: "Support us", to: "https://buymeacoffee.com/aiktb" },
+    { text: "About the author", to: "https://github.com/kenji005114" },
+    { text: "Contact us", to: "kenji005114@gmail.com" },
   ];
 
   const links = useContext(LinksContext)!;
