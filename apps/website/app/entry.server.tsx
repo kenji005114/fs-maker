@@ -1,8 +1,6 @@
 import { isbot } from "isbot";
-import pkg from "react-dom/server";
+import { renderToReadableStream } from "react-dom/server";
 import { type EntryContext, ServerRouter } from "react-router";
-
-const { renderToReadableStream } = pkg
 
 export default async function handleRequest(
   request: Request,
